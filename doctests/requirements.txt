@@ -4,3 +4,4 @@ requests
 sentence_transformers
 tabulate
 redis #install latest stable version
+transformers>=5.0.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
