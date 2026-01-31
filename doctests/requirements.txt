@@ -4,3 +4,5 @@ requests
 sentence_transformers
 tabulate
 redis #install latest stable version
+sentencepiece>=0.2.1 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
